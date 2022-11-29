@@ -1,0 +1,49 @@
+.App {
+    display: flex;
+}
+
+.block {
+    border-radius: 4px;
+    padding: 10px;
+    margin: 20px 0 0 10px;
+    width: 30%;
+    min-height: 500px;
+    border: 2px solid #000;
+    position: relative;
+}
+
+.title {
+    position: absolute;
+    top: -13px;
+    left: 35%;
+    background-color: #FFF;
+    padding: 0;
+}
+
+.addItemsBlock {
+    width: 70%;
+    margin-right: 10px;
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.item {
+    padding: 20px;
+    margin: 10px 0;
+    border: 3px solid #000;
+    border-radius: 7px;
+    width: 40%;
+}
+
+.ordersBlock {
+    display: flex;
+    flex-direction: column;
+}
+
+.total {
+    flex-grow: 1;
+}
